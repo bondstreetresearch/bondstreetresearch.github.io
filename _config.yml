@@ -1,9 +1,10 @@
+# Blog settings
+permalink: /blog/:title
+
+
 # My variables
-name: Bond Street Research
-description:   Bond Street Research provides discreet and confidential research 
-  on issues of import. We specialize in fast recovery, slow release 
-  data collection and employ a broad range of industry experts to 
-  ensure tertiary strategy and insight for our global clientele.
+name: Micah Cowell
+description: Futuristic web design
 google_verification: null
 
 
