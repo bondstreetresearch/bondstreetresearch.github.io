@@ -1,16 +1,30 @@
-title: Bond Street Research
-description: >
-  Bond Street Research provides discreet and confidential research 
+# Blog settings
+permalink: /site/:Bond Street Research
+
+
+# My variables
+name: Bond Street Research
+description:   Bond Street Research provides discreet and confidential research 
   on issues of import. We specialize in fast recovery, slow release 
   data collection and employ a broad range of industry experts to 
   ensure tertiary strategy and insight for our global clientele.
-url: bondstreetresearch.com
+google_verification: null
 
-# Build settings
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
